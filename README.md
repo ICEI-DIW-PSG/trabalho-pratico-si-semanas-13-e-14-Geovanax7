@@ -9,15 +9,16 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: GEOVANA DE SOUZA FERREIRA
+- Matricula: 1545034
+Proposta de projeto escolhida: Organizações e Equipes
+Breve descrição sobre seu projeto: O projeto Geovana Makeup é um sistema de agendamento e exibição de serviços de maquiagem. 
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+o meu calendario é para mostrar e facilitar o agendamento das clientes, mostrando se tem horário disponivel ou não.
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![alt text](public/imagens/127.0.0.1_8080_agendamento.html.png)
+![alt text](<public/imagens/127.0.0.1_8080_agendamento.html (1).png>)
+
