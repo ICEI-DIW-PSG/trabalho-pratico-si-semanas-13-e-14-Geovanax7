@@ -1,0 +1,121 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Admin",
+      "email": "admin@geovanamakeup.com"
+    }
+  ],
+
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Maquiagem Social",
+      "descricao": "Ideal para eventos e festas.",
+      "preco": 150
+    },
+    {
+      "id": 2,
+      "nome": "Editorial",
+      "descricao": "Maquiagem artística para editoriais de moda e fotos.",
+      "preco": 300
+    },
+    {
+      "id": 3,
+      "nome": "Noiva",
+      "descricao": "Maquiagem completa com teste prévio.",
+      "preco": 500
+    }
+  ],
+
+  "agendamentos": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "servico": "Maquiagem Social",
+      "data": "2025-11-15",
+      "hora": "14:00"
+    },
+
+
+    {
+      "id": 10,
+      "nome": "Cliente 1",
+      "servico": "Maquiagem Social",
+      "data": "2025-11-22",
+      "hora": "08:00"
+    },
+    {
+      "id": 11,
+      "nome": "Cliente 2",
+      "servico": "Maquiagem Editorial",
+      "data": "2025-11-22",
+      "hora": "09:00"
+    },
+    {
+      "id": 12,
+      "nome": "Cliente 3",
+      "servico": "Maquiagem Social",
+      "data": "2025-11-22",
+      "hora": "10:00"
+    },
+    {
+      "id": 13,
+      "nome": "Cliente 4",
+      "servico": "Maquiagem de Noiva",
+      "data": "2025-11-22",
+      "hora": "11:00"
+    },
+    {
+      "id": 14,
+      "nome": "Cliente 5",
+      "servico": "Maquiagem Artística",
+      "data": "2025-11-22",
+      "hora": "14:00"
+    },
+    {
+      "id": 15,
+      "nome": "Cliente 6",
+      "servico": "Maquiagem Social",
+      "data": "2025-11-22",
+      "hora": "15:00"
+    },
+    {
+      "id": 16,
+      "nome": "Cliente 7",
+      "servico": "Maquiagem Editorial",
+      "data": "2025-11-22",
+      "hora": "16:00"
+    }
+  ],
+
+  "agenda": [
+    {
+      "id": 1,
+      "data": "2025-11-19",
+      "horarios": ["08:00", "09:00", "10:00", "13:00", "15:00", "17:00"]
+    },
+    {
+      "id": 2,
+      "data": "2025-11-20",
+      "horarios": ["09:00", "11:00", "14:00", "16:30"]
+    },
+    {
+      "id": 3,
+      "data": "2025-11-21",
+      "horarios": ["08:00", "09:30", "12:00", "16:00"]
+    },
+
+    {
+      "id": 4,
+      "data": "2025-11-25",
+      "horarios": []
+    },
+
+    {
+      "id": 5,
+      "data": "2025-11-22",
+      "horarios": ["08:00", "09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+    }
+  ]
+}

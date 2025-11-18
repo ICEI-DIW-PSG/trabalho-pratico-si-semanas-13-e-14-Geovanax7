@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento - Geovana Makeup</title>
+
+  <!-- SEU CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ÍCONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- FULLCALENDAR CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
+
+  <!-- FULLCALENDAR JS -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+  <style>
+      /* ESTILO DO CALENDÁRIO */
+      #calendar {
+          max-width: 900px;
+          margin: 30px auto;
+          background: #fff;
+          padding: 20px;
+          border-radius: 12px;
+          box-shadow: 0 0 10px #00000020;
+      }
+
+      .horarios-box {
+          max-width: 600px;
+          margin: 20px auto;
+          padding: 20px;
+          background: #fff;
+          border-radius: 12px;
+          box-shadow: 0 0 10px #00000015;
+          display: none;
+      }
+
+      .hora {
+          padding: 10px;
+          border: 1px solid #ddd;
+          margin: 5px 0;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: 0.2s;
+      }
+
+      .hora:hover {
+          background: #f5f5f5;
+      }
+  </style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">
+      <img src="imagens/1.png" alt="Logo Geovana Makeup">
+      <span>Geovana Makeup</span>
+  </div>
+</header>
+
+<section class="agendamento">
+  <h1>Agendar Atendimento</h1>
+  <p>Escolha o dia e horário disponíveis no calendário abaixo:</p>
+
+  <!-- HORÁRIOS -->
+  <div id="horarios" class="horarios-box"></div>
+
+  <!-- FORMULÁRIO -->
+  <div class="formulario">
+
+      <div id="calendar"></div>
+
+      <input type="text" id="nome" placeholder="Seu nome completo">
+      <input type="text" id="data" placeholder="Data escolhida" readonly>
+      <input type="text" id="hora" placeholder="Horário escolhido" readonly>
+
+      <select id="servico">
+          <option>Maquiagem de Noiva</option>
+          <option>Maquiagem Social</option>
+          <option>Maquiagem Editorial</option>
+          <option>Maquiagem do Dia</option>
+          <option>Maquiagem da Noite</option>
+          <option>Maquiagem Artística</option>
+      </select>
+
+      <button onclick="enviarWhatsApp()" class="btn">
+          <i class="fa-brands fa-whatsapp"></i> Confirmar pelo WhatsApp
+      </button>
+  </div>
+
+  <a href="index.html" class="btn voltar">
+      <i class="fa-solid fa-arrow-left"></i> Voltar
+  </a>
+</section>
+
+<footer>
+  <p>© 2025 Geovana Makeup - Todos os direitos reservados</p>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

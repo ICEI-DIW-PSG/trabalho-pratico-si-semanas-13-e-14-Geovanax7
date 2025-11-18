@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geovana Makeup</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="header">
+    <div class="logo">
+      <img src="imagens/1.png" alt="Logo Geovana Makeup">
+      <h1>Geovana Makeup</h1>
+    </div>
+    <nav>
+      <a href="index.html" class="ativo">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="agendamento.html">Agendamento/Calendário</a>
+
+    </nav>
+  </header>
+
+  <!-- ===== CARROSSEL ===== -->
+  <section class="carrossel">
+    <div class="slides">
+      <img src="imagens/carrossel_artistico.png" alt="Imagem 1">
+      <img src="imagens/carrossel_noiva.png" alt="Imagem 2">
+      <img src="imagens/carrossel_noite.png" alt="Imagem 3">
+      <img src="imagens/carrossel_editorial.png" alt="Imagem 4">
+      <img src="imagens/carrossel_dia.png" alt="Imagem 5">
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section id="servicos">
+    <h2><i class="fa-solid fa-star"></i> Serviços</h2>
+
+    <div class="grid">
+      <!-- Noiva -->
+      <div class="card">
+        <div class="icon-circle"><i class="fa-solid fa-ring"></i></div>
+        <h3>Maquiagem Noiva</h3>
+        <p>Preparação completa para o grande dia.</p>
+        <p><strong>R$ 450,00</strong></p>
+        <a href="servico-noiva.html" class="btn">Saiba mais</a>
+      </div>
+
+      <!-- Social -->
+      <div class="card">
+        <div class="icon-circle"><i class="fa-solid fa-champagne-glasses"></i></div>
+        <h3>Maquiagem Social</h3>
+        <p>Eventos, festas e formaturas.</p>
+        <p><strong>R$ 160,00</strong></p>
+        <a href="servico.social.html" class="btn">Saiba mais</a>
+      </div>
+
+      <!-- Editorial -->
+      <div class="card">
+        <div class="icon-circle"><i class="fa-solid fa-camera-retro"></i></div>
+        <h3>Editorial</h3>
+        <p>Ensaios fotográficos e produções especiais.</p>
+        <p><strong>R$ 250,00</strong></p>
+        <a href="servico-editorial.html" class="btn">Saiba mais</a>
+      </div>
+
+      <!-- Dia -->
+      <div class="card">
+        <div class="icon-circle"><i class="fa-solid fa-sun"></i></div>
+        <h3>Maquiagem do Dia</h3>
+        <p>Leve e natural para o dia a dia.</p>
+        <p><strong>R$ 120,00</strong></p>
+        <a href="dia.html" class="btn">Saiba mais</a>
+      </div>
+
+      <!-- Noite -->
+      <div class="card">
+        <div class="icon-circle"><i class="fa-solid fa-moon"></i></div>
+        <h3>Maquiagem da Noite</h3>
+        <p>Elegância e destaque para eventos noturnos.</p>
+        <p><strong>R$ 180,00</strong></p>
+        <a href="noite.html" class="btn">Saiba mais</a>
+      </div>
+
+      <!-- Artística -->
+      <div class="card">
+        <div class="icon-circle"><i class="fa-solid fa-palette"></i></div>
+        <h3>Maquiagem Artística</h3>
+        <p>Criações criativas para editoriais e fantasias.</p>
+        <p><strong>R$ 300,00</strong></p>
+        <a href="servico-artistico.html" class="btn">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer>
+    <div class="footer-left">
+      <img src="imagens/quemsou.png" alt="Foto de Geovana" class="footer-quemsou">
+      <div class="footer-text">
+        <h3>💜 Quem sou eu</h3>
+        <p>Olá, sou <strong>Geovana</strong>, maquiadora profissional com experiência e paixão pela beleza.</p>
+        <p>Com 3 anos de experiência e 5 certificações, transformo autoestima com técnica e cuidado.</p>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <h4>Contatos</h4>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/geovanax_souza"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/5531995372658?text=Quero%20agendar%20um%20horário" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:contato@geovanamakeup.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="copy">
+      © 2025 Geovana Makeup. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPT DO CARROSSEL ===== -->
+  <script>
+    let slideIndex = 0;
+
+    function moverCarrossel() {
+      const slides = document.querySelector(".slides");
+      slideIndex++;
+      if (slideIndex > 4) slideIndex = 0;
+      slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+    }
+
+    setInterval(moverCarrossel, 3000);
+  </script>
+
+</body>
+</html>

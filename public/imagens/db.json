@@ -1,0 +1,46 @@
+{
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Maquiagem de Noiva",
+      "descricao": "Preparação completa para o grande dia com produtos de alta durabilidade e resistência.",
+      "preco": 450,
+      "imagem": "imagens/noiva.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Maquiagem Social",
+      "descricao": "Perfeita para festas, eventos e formaturas, garantindo beleza e sofisticação.",
+      "preco": 160,
+      "imagem": "imagens/social.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Maquiagem Editorial",
+      "descricao": "Estilo criativo e expressivo, ideal para ensaios fotográficos e campanhas.",
+      "preco": 250,
+      "imagem": "imagens/editorial.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Maquiagem do Dia",
+      "descricao": "Leve, natural e confortável para o dia a dia.",
+      "preco": 120,
+      "imagem": "imagens/dia.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Maquiagem da Noite",
+      "descricao": "Brilho e intensidade ideais para festas e eventos noturnos.",
+      "preco": 180,
+      "imagem": "imagens/noite.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Maquiagem Artística",
+      "descricao": "Transformações criativas e temáticas com alto impacto visual.",
+      "preco": 300,
+      "imagem": "imagens/artistica.jpg"
+    }
+  ]
+}
